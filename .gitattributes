@@ -1,0 +1,2 @@
+# Normalize line endings so edits from different computers don't create noise
+* text=auto eol=lf
