@@ -8,10 +8,14 @@ Running log of work sessions. Times are recorded from real clock times, never es
 
 ## 2026-09-01
 
-- **Time:** 18:00 – _(end time to be filled)_
+- **Time:** 18:00 – 23:00 (5.0 h)
 - **Done:**
+  - Planned the project approach: agreed the 8-week phasing, the
+    "smallest-appropriate-step" workflow, and the beginner-friendly ground rules;
+    captured all of it in the project skill and `docs/requirements.md`
   - Reviewed the current project folder and identified what Week 1 still needs
   - Created the `istvs-research-labs-web` project skill under `.claude/skills/`
+    (project purpose, tech direction, design system, data model, QA checklist)
   - Initialized the git repository (branch `main`); set commit identity for this repo
   - Added baseline files: `README.md`, `WORK_LOG.md`, `docs/requirements.md`,
     `.gitignore`, `.gitattributes`
@@ -25,7 +29,10 @@ Running log of work sessions. Times are recorded from real clock times, never es
   - Added `gitbook-docs.yaml` (site structure) and a `site/` folder with a
     holding landing page; the published website is built only from `site/`
   - Published a preview: **<https://istvs-1.gitbook.io/istvs-docs/>**
-  - Commits: `c97fdfe`, `9aad4fd`, `2dec94e`
+  - Reviewed `docs/requirements.md` and compiled `docs/questions-for-istvs.md`
+    for the advisor / Secretariat
+  - Wrote a Week 1 progress report (`docs/reports/2026-09-01-week-1-report.*`)
+  - Commits: `c97fdfe`, `9aad4fd`, `2dec94e`, `ffd7c9c`, `bb84b4f`
 - **Decisions:**
   - Site is published through GitBook from Markdown files in a GitHub repository
     (per the ISTVS General Secretary's proposal). No static-site framework.
