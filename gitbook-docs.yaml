@@ -1,0 +1,18 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+
+# Names the GitBook site and maps repository directories onto its navigation.
+# The published website is built only from the ./site directory. Everything else
+# in this repository (docs/, WORK_LOG.md, .claude/, Context/, source PDFs) is
+# project material and is not part of the website.
+
+site:
+  title: ISTVS Research Labs
+  structure:
+    - type: space
+      key: space-research-labs
+      title: Research Labs
+      path: research-labs
+      default: true
+      content:
+        directory: ./site
+        language: en
