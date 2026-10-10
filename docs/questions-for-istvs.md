@@ -24,9 +24,19 @@ Status: **open** — raised 2026-09-01, Week 1.
 - Any data that should **not** be published publicly (e.g. personal emails,
   internal notes)?
 
+**Correction 2026-09-04:** Massimo clarified ISTVS is **not** retiring Knack
+entirely — it stays as the members database. Only the public Research
+Facilities directory is moving off Knack onto the new site.
+
 ## People and access
 
 (Access is set up in Week 6 — this is just to confirm the list now.)
+
+**Action item (open):** Massimo asked Shun to email him the full name, email,
+and GitHub username for everyone who needs access, so he can add them as
+GitHub collaborators and GitBook admins/editors. Include Dr. Tekeste
+(wants visibility/watch access). Still need real emails + GitHub usernames for
+John Sheriff and Jaush Tai below before that email can go out.
 
 - Please confirm **full name, role, email, and GitHub username** for each person
   who should have edit access:
@@ -39,22 +49,29 @@ Status: **open** — raised 2026-09-01, Week 1.
 - Does everyone on that list already have a **GitHub account**? (Free to create;
   needed for edit access.)
 
-## Domain and hosting
+## Domain and hosting — ANSWERED 2026-09-04
 
-- The proposal suggests `res-labs.istvs.org`. Is that the **final address**, or
-  just an example?
-- **Who controls DNS for `istvs.org`?** (The main site is on Squarespace.)
-  Setting up the custom address is an ISTVS action, likely in Week 6–8.
-- Does ISTVS already have a **GitBook account or organization**? If so, the site
-  should live there rather than under a student account.
+- **Pattern confirmed.** ISTVS already uses `<year>.istvs.org` for its
+  conference sites on this same GitBook+GitHub workflow, so `res-labs.istvs.org`
+  (or `lab.istvs.org`) follows an existing, working pattern rather than being a
+  new one-off. Exact subdomain still to be finalized with Massimo.
+- **GitBook org confirmed.** ISTVS already has a GitBook organization (used for
+  the conference sites). Massimo will create the new space directly inside it —
+  no separate student-account site to migrate later.
+- DNS control for `istvs.org` — not explicitly confirmed, but Massimo clearly
+  administers the existing `<year>.istvs.org` subdomains, so this is his/the
+  Secretariat's action when we're ready to point the domain.
 
-## GitBook plan / cost
+## GitBook plan / cost — ANSWERED 2026-09-04
 
-- GitBook's GitHub-sync feature is a paid feature. We are on a **14-day trial
-  that ends around 2026-09-15**. ISTVS is a non-profit, so we should qualify for
-  GitBook's **non-profit / education plan** (free or discounted). Does ISTVS
-  want to apply for that, cover a paid plan (~$8/user/month), or already have a
-  solution?
+- **Resolved in the platform review meeting.** ISTVS is already on GitBook's
+  **nonprofit Community plan** (confirmed live by Massimo Martelli) — the same
+  plan already running the `<year>.istvs.org` conference sites. It includes
+  multiple admins/editors, a custom domain, and Git Sync, at **$0 cost**. The
+  new Research Labs space should be created inside that existing ISTVS org,
+  not a new paid plan or a student trial account.
+  (Prior estimate for reference — not what will actually happen — is in
+  [../.claude/skills/istvs-research-labs-web/references/platform-pricing-2026-09.md](../.claude/skills/istvs-research-labs-web/references/platform-pricing-2026-09.md).)
 
 ## Site scope and features
 
@@ -70,11 +87,14 @@ Status: **open** — raised 2026-09-01, Week 1.
 
 ## Ownership and handoff
 
-- The GitHub repository and GitBook space are currently under a **student
-  personal account**. When and how should ownership **transfer to ISTVS** so the
-  site outlives student turnover?
-- Who is the **long-term maintainer** after this 8-week project — a rotating
-  student officer, the Secretariat, or the advisor?
+- **Resolved 2026-09-04 (partially):** no transfer needed. Massimo will create
+  the GitBook space directly inside the ISTVS org and add collaborators to an
+  ISTVS-side GitHub setup, so the site is never tied to a student personal
+  account in the first place.
+- Still open: who is the **long-term maintainer** after this 8-week project —
+  a rotating student officer, the Secretariat, or the advisor? Dr. Tekeste
+  asked to be added as a watcher/admin so he has visibility even though he
+  described himself as not a GitHub developer.
 
 ## Review checkpoints
 

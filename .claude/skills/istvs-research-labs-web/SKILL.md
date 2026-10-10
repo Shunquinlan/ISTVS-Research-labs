@@ -109,6 +109,16 @@ say proceed, proceed.
 Note the current week at the top of `WORK_LOG.md` and trust that over this table
 if they disagree.
 
+## Pricing and platform-choice research
+
+A platform comparison (GitBook+GitHub vs. Squarespace/Wix/WordPress.com/
+Webflow/Google Sites) was researched and delivered to Dr. Tekeste on
+2026-09-03. Current vendor pricing for all six is in
+[references/platform-pricing-2026-09.md](references/platform-pricing-2026-09.md).
+Read it before re-researching pricing for a related decision, and
+re-verify the numbers there before ISTVS actually signs up for anything
+— vendor pricing changes.
+
 ## GitBook basics
 
 GitBook renders Markdown files from the GitHub repo into pages. Keep these in mind:

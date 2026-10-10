@@ -44,18 +44,93 @@ Running log of work sessions. Times are recorded from real clock times, never es
   - GitBook space is a single space named "Research Labs" at path `research-labs`
     (the URL path is a placeholder; revisit when the real structure is designed).
 - **Blockers / open items:**
-  - **GitBook plan:** currently on a 14-day trial of a paid plan. Git Sync is a
-    paid feature. Before ~2026-09-15, move to GitBook's nonprofit/education plan
-    (ISTVS is a nonprofit; likely eligible) or a paid plan. Raise with the
-    advisor / ISTVS Secretariat.
-  - **Account ownership:** the GitBook space and GitHub repo are under a student
-    personal account. Before launch, transfer ownership to an ISTVS-controlled
-    account so the site outlives student turnover.
+  - ~~**GitBook plan:** currently on a 14-day trial of a paid plan...~~
+    **Resolved 2026-09-04** — see below. ISTVS is already on GitBook's
+    nonprofit Community plan; the site should be built inside the existing
+    ISTVS GitBook org, not a paid personal-account plan.
+  - ~~**Account ownership:** ... transfer ownership to an ISTVS-controlled
+    account...~~ **Resolved 2026-09-04** — see below. Massimo Martelli will
+    create the space directly inside the ISTVS GitBook org and add
+    collaborators to the ISTVS GitHub org, so there is no separate transfer
+    step later.
 - **Next (Week 2):**
   - Design the lab-data spreadsheet structure (columns, category list)
   - Confirm the lab data fields with the ISTVS Secretariat (Massimo Martelli),
     who holds the existing Knack database
   - Review `docs/requirements.md` together
+
+## 2026-09-04
+
+- **Platform review meeting held** with Dr. Tekeste, Massimo Martelli (ISTVS
+  General Secretariat), and Lutz Richter — Shun presented the six-platform
+  comparison and the GitBook + GitHub recommendation.
+- **Outcome: recommendation approved.** Key facts confirmed live by Massimo
+  Martelli, which change two things this project assumed:
+  - **Cost: $0, not ~$1,356/yr.** ISTVS is already on GitBook's **nonprofit
+    Community plan** (multiple admins/editors, custom domain, all advanced
+    features) at no cost — this is the exact plan ISTVS already uses for its
+    year.istvs.org conference sites. No new subscription is needed.
+  - **Hosting: build inside the existing ISTVS org, not a student account.**
+    Massimo will create the new GitBook space directly inside the ISTVS
+    GitBook organization and add the project's collaborators to the ISTVS
+    GitHub org. This removes the "transfer ownership before launch" blocker
+    entirely — there's nothing to transfer.
+  - **Domain pattern confirmed.** ISTVS already uses `<year>.istvs.org` for
+    conference sites on this same GitBook+GitHub workflow; `res-labs.istvs.org`
+    (or `lab.istvs.org`) follows that existing pattern.
+  - **Knack correction:** ISTVS is **not** retiring Knack entirely — it stays
+    as the members database. Only the public Research Facilities directory is
+    moving off Knack onto the new site.
+  - Massimo has an existing Python automation (built for generating conference
+    proceedings/pages) that generates Markdown files from structured data and
+    syncs them to GitBook — a possible reference or reuse point for the
+    labs-from-spreadsheet automation planned for Week 2.
+- **Action item (Shun):** send Massimo a list of everyone who needs access —
+  full name, email, and GitHub username — for two things: (1) GitHub
+  collaborator access on the repo, (2) GitBook admin/editor access on the new
+  space. Include Dr. Tekeste (wants visibility, not necessarily an editor
+  role). Massimo will do the invites in the first days of the following week.
+- **Still open:** the actual email/GitHub-username list for John Sheriff and
+  Jaush Tai (see `docs/questions-for-istvs.md`).
+
+## 2026-09-10
+
+- **Access confirmed.** Shun was added as a collaborator on the real
+  `res-labs` GitHub repo, under the ISTVS org
+  (https://github.com/istvs/res-labs) — not a student personal account,
+  matching what Massimo described on the call. GitBook<->GitHub sync is
+  already tested and working (the test sync commits/log entries currently in
+  the repo are Massimo's placeholders, not real content — clear them out
+  when real work starts).
+- **Blocker from the platform-review meeting is now fully closed:** cost
+  ($0, nonprofit plan), hosting (inside the ISTVS org), and access are all
+  resolved as of this entry.
+- **Next:** start Week 2 — design the lab-data spreadsheet structure, get the
+  Knack export from Massimo, and replace the placeholder README/SUMMARY with
+  real project content.
+
+
+---
+
+### Week 1 — Summary (for hours log)
+
+- **Planning:** spent the week planning the project approach and drafting the
+  rough 8-week phase plan (setup -> data model -> design -> build -> handoff),
+  captured in `docs/requirements.md` and the project skill.
+- **Platform pitch:** researched and built a presentation comparing six
+  website platforms (GitBook+GitHub, Squarespace, Wix, WordPress, Webflow,
+  Google Sites) across 20 criteria, and presented it to Dr. Tekeste, Massimo
+  Martelli, and Lutz Richter.
+- **Key thing learned in that meeting:** ISTVS's own conference sites
+  (`<year>.istvs.org`) already run on the exact platform combo recommended —
+  GitBook + GitHub — and it's free, because ISTVS's nonprofit status already
+  qualifies it for GitBook's Community plan.
+- **Side note:** retiring Knack outright is not happening — only the Research
+  Facilities / lab directory section is migrating off it onto the new site;
+  Knack stays in place as the members database.
+- **Outcome:** got a go-ahead in that meeting to start Week 2.
+- **Hours:** 13 hours of Week 1 work logged in Workday under Week 2 (Workday
+  wouldn't accept entries dated before the official student-worker hire date).
 
 ---
 
