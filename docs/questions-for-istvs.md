@@ -24,6 +24,12 @@ Full details: `docs/data/knack-review-2026-10-10.xlsx` ("Read Me" tab).
    with the **6 complete** ones first?
 6. Is the **Iowa State Soil Machine Dynamics Laboratory** OK as the one
    representative lab page for the template review?
+7. **GitBook editing access (for Massimo):** in the *ISTVS Resouce Laboratories*
+   space, every space in the "New change request" menu is greyed out for Shun,
+   so he can't create a draft (change request). Could Shun get editor access so
+   the ISU example page can be built as an unpublished draft?
+8. **Typo (for Massimo):** the space is named "ISTVS Res**ou**ce Laboratories",
+   which should be "Resource".
 
 ## The existing lab data (Knack) — ANSWERED 2026-10-10
 

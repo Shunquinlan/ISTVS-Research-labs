@@ -151,7 +151,12 @@ Running log of work sessions. Times are recorded from real clock times, never es
   - Added the open questions from the review to `docs/questions-for-istvs.md`
 - **Decisions (pending Shun's confirmation):** representative lab = ISU SMD Lab;
   32-column master structure; 8 draft tags
-- **Blockers:** stakeholder answers to the 5 questions (email not sent yet — on hold)
+- **Found:** the GitBook site is already live at res-labs.istvs.org (Community
+  plan), showing the "WORK IN PROGRESS" test page. The content space is
+  "ISTVS Resouce Laboratories" (typo).
+- **Blockers:** (1) GitBook: can't create a change request; all spaces are greyed
+  out in the "New change request" menu, so editor access is needed from Massimo.
+  (2) Stakeholder answers to the open questions (email not sent yet; on hold)
 - **Next:** try the example page in a GitBook change request (not published);
   send the review + questions; Week 3 = stakeholder review of the one page
 
