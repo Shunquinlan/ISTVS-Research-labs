@@ -2,7 +2,7 @@
 
 Running log of work sessions. Times are recorded from real clock times, never estimated.
 
-**Current phase:** Week 1 — project setup (GitHub repository, GitBook space, requirements)
+**Current phase:** Week 2 — lab data structure and template planning (resumed 2026-10-10 after a ~2-week break)
 
 ---
 
@@ -109,6 +109,51 @@ Running log of work sessions. Times are recorded from real clock times, never es
   Knack export from Massimo, and replace the placeholder README/SUMMARY with
   real project content.
 
+
+## 2026-10-10
+
+- **Time:** __:__ – __:__ (Shun to fill in)
+- **Done:**
+  - Resumed the project after a ~2-week break (illness + exam preparation)
+  - Committed leftover Week 1 files (platform deck, executive summary, pricing
+    notes) — commit `3def511`
+  - Cloned the real ISTVS repository `istvs/res-labs` to
+    `C:\Users\quinl\GitHub\res-labs` (outside OneDrive). It contains only
+    README.md, SUMMARY.md and LICENSE; README has two sync-test lines from Massimo
+  - **Received the Knack export from Massimo** (`ISTVS_Research_facilities_DB.zip`:
+    .xlsx/.csv/.json/.txt)
+  - Reviewed every record and built `docs/data/knack-review-2026-10-10.xlsx`
+- **Findings:**
+  - 38 records (39 in the .csv/.json — the extra one is a test entry) but only
+    **13 distinct labs**; **6 have complete profiles**
+  - The rest are test entries, duplicates, or soil-data form "fragments"
+  - The current public page shows Iowa State twice (two records set to Display = Yes)
+  - 75 export columns (43 Knack fields split into sub-columns); location data has errors
+  - 21 logos/photos/PDFs are stored on Knack's servers
+- **Decisions:** none final — all proposals in the review workbook await confirmation
+- **Blockers:** none
+- **Next:** confirm field decisions, pick the representative lab, draft the lab page template
+
+## 2026-10-19
+
+- **Time:** __:__ – __:__ (Shun to fill in)
+- **Done:**
+  - Re-checked the Knack review: confirmed .xlsx = .csv minus one test record;
+    fixed a drop-down list bug
+  - Drafted 8 research-area browse tags from the labs' own descriptions
+    ("Draft Tags" tab) and tagged the 8 labs that have descriptions
+  - Drafted the reusable lab page template (`docs/template/lab-template.md`) and
+    one filled-in example for the ISU Soil Machine Dynamics Laboratory
+    (`docs/template/isu-smd-lab.md`) plus a browser preview
+  - Listed all 21 Knack files to archive (`docs/data/knack-assets-list.csv`);
+    downloading them was blocked from the assistant's side, so Shun runs one
+    PowerShell command
+  - Added the open questions from the review to `docs/questions-for-istvs.md`
+- **Decisions (pending Shun's confirmation):** representative lab = ISU SMD Lab;
+  32-column master structure; 8 draft tags
+- **Blockers:** stakeholder answers to the 5 questions (email not sent yet — on hold)
+- **Next:** try the example page in a GitBook change request (not published);
+  send the review + questions; Week 3 = stakeholder review of the one page
 
 ---
 

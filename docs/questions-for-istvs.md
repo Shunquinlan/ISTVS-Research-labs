@@ -4,11 +4,33 @@ Questions to resolve with Dr. Tekeste and, where noted, the ISTVS General
 Secretariat (Massimo Martelli). Answers get folded back into
 `docs/requirements.md`.
 
-Status: **open** — raised 2026-09-01, Week 1.
+Status: **open** — raised 2026-09-01, Week 1. Updated 2026-10-19 (Week 2) after the Knack export review.
 
 ---
 
-## The existing lab data (Knack) — highest priority
+## New questions from the Knack review — 2026-10-19
+
+Full details: `docs/data/knack-review-2026-10-10.xlsx` ("Read Me" tab).
+
+1. May **contact emails** be shown publicly on the site? (The current public
+   directory already shows a Contact column.)
+2. Should the **soil-data submissions** (soil parameters, test apparatus, soil
+   test methods, soil models, reports — Knack fields 1–5) appear on the site,
+   now or later, or stay archived?
+3. **MRTC** is complete but named "DRAFT" and hidden. Publish it or not?
+4. Who is **Gedalyahu Manor**, and is **Iguana Technology LLC** (a company)
+   meant to be listed?
+5. Contact the **7 incomplete labs** for updated info before launch, or launch
+   with the **6 complete** ones first?
+6. Is the **Iowa State Soil Machine Dynamics Laboratory** OK as the one
+   representative lab page for the template review?
+
+## The existing lab data (Knack) — ANSWERED 2026-10-10
+
+Massimo sent the full export (`ISTVS_Research_facilities_DB.zip`) on 2026-10-10:
+38 records / 43 fields (75 columns in the export). Lab images and PDFs are
+Knack assets linked from the `… : URL` columns and are still publicly
+downloadable. Original questions kept below for reference.
 
 - Can the Secretariat provide an **export of the current Research Facilities
   database** from Knack (Excel, CSV, or JSON)? This is needed to design the

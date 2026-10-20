@@ -26,6 +26,8 @@ terrain-vehicle research laboratories.
 | `README.md` | This file |
 | `WORK_LOG.md` | Log of work sessions (date, hours, what was done, next steps) |
 | `docs/` | Project documentation — requirements, and later the maintenance guide |
+| `docs/data/` | Knack export review workbook and the list of Knack files to archive |
+| `docs/template/` | Draft lab page template + one example lab page (not published) |
 | `Context/` | Background material and source documents |
 | `.claude/` | Configuration for the Claude Code assistant used on this project |
 
@@ -34,7 +36,9 @@ added in later weeks, in the order set out in `docs/requirements.md`.
 
 ## Project status
 
-Currently in **Week 1** of an 8-week plan: project setup. See `WORK_LOG.md` for
+Currently in **Week 2** of an 8-week plan: lab data structure and template planning.
+The Knack export has been reviewed (`docs/data/`) and one draft lab page
+template exists (`docs/template/`), waiting for review. See `WORK_LOG.md` for
 the current week and `docs/requirements.md` for the full plan.
 
 ## Editing this project
