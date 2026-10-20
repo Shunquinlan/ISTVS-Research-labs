@@ -149,8 +149,13 @@ Running log of work sessions. Times are recorded from real clock times, never es
     downloading them was blocked from the assistant's side, so Shun runs one
     PowerShell command
   - Added the open questions from the review to `docs/questions-for-istvs.md`
-- **Decisions (pending Shun's confirmation):** representative lab = ISU SMD Lab;
-  32-column master structure; 8 draft tags
+- **Decisions (confirmed by Shun 2026-10-19; still to be reviewed by stakeholders):**
+  13 labs from 38 records; migrate the 6 complete labs first; discard test,
+  duplicate and fragment records; 32-column master structure (internal-only:
+  lab_id, publish, knack_record_id, knack_last_edit, last_reviewed, internal_notes;
+  contact email shown publicly); 8 research-area tags + Type / Country / Open-to
+  filters; representative lab = ISU Soil Machine Dynamics Laboratory; fixed page
+  section order with empty sections hidden; small text fixes in the ISU example
 - **Found:** the GitBook site is already live at res-labs.istvs.org (Community
   plan), showing the "WORK IN PROGRESS" test page. The content space is
   "ISTVS Resouce Laboratories" (typo).

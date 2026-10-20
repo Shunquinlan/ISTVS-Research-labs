@@ -17,7 +17,7 @@ Week 2 deliverable: one reusable lab page, designed before any automation.
 
 ## Status
 
-- [ ] Shun reviews the draft
+- [x] Shun reviews the draft (approved 2026-10-19)
 - [ ] Tried in a GitBook **change request** (a draft that is not published)
 - [ ] Shown to Dr. Tekeste and Massimo
 - [ ] Revised and approved. Only after this: build the other pages and the automation.
