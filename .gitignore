@@ -19,3 +19,6 @@ node_modules/
 # Knack files archive (216 MB, one file is 202 MB - too big for GitHub).
 # Kept on this computer / OneDrive only. List of files: docs/data/knack-assets-list.csv
 docs/data/knack-assets/
+
+# Raw screen recording used to make smd-site/media/hero-loop.mp4 (11 MB, not needed online)
+smd-site/*.webm
