@@ -320,3 +320,81 @@ footer a{color:#fff}
 /* 3. footer in solid cardinal */
 footer{background:var(--cardinal);color:rgba(255,255,255,.9)}
 footer a{color:#fff}
+
+/* ===== ISU cardinal, gold and white (2026-11-17, per Dr. Tekeste: no black) ===== */
+:root{
+  --cardinal:#C8102E; --cardinal-dk:#8B0B20; --cardinal-xdk:#5E0816; --gold:#F1BE48; --gold-dk:#DAA520;
+  --line-d:rgba(255,255,255,.22); --muted-d:rgba(255,255,255,.82);
+}
+.review{color:var(--cardinal-xdk)}
+.review a{color:var(--cardinal-xdk)}
+
+/* top bar: cardinal with a gold rule */
+.topbar{background:var(--cardinal);border-bottom:4px solid var(--gold)}
+.brand .uni{color:#fff;opacity:.9}
+.topbar nav a{color:#fff}
+.topbar nav a:hover,.topbar nav a[aria-current="page"]{border-bottom-color:var(--gold)}
+
+/* photo/video overlays: deep cardinal instead of black */
+.hero-full,.fullbleed,.bin-full{background-color:var(--cardinal-xdk)}
+.shade{background:linear-gradient(90deg,rgba(94,8,22,.92) 0%,rgba(139,11,32,.62) 45%,rgba(139,11,32,.08) 80%),linear-gradient(0deg,rgba(94,8,22,.6),rgba(94,8,22,0) 45%)}
+@media (max-width:860px){.shade{background:linear-gradient(0deg,rgba(94,8,22,.95) 10%,rgba(139,11,32,.6) 55%,rgba(139,11,32,.15))}}
+.page-head{background-color:var(--cardinal-xdk)}
+.page-head::before{background:linear-gradient(90deg,rgba(94,8,22,.94),rgba(139,11,32,.7) 50%,rgba(139,11,32,.3))}
+.hero-full .eyebrow,.fb-copy .eyebrow,.page-head .eyebrow,.dark .eyebrow,.sponsors-band .eyebrow{color:var(--gold)}
+
+/* dark sections -> cardinal shades */
+.dark{background:var(--cardinal-dk)}
+.dark.black{background:var(--cardinal)}
+.dark p{color:#fff}
+.dark .card{background:#fff;color:var(--fg);border-color:transparent;border-top:4px solid var(--gold)}
+.dark .card p,.dark .card li{color:#3d3d44}
+.dark .card .tag{color:var(--cardinal)}
+.dark .card .more{color:var(--fg)}
+
+/* arrow links and buttons on red backgrounds use gold */
+.dark .more::after,.hero-full .more::after,.fb-copy .more::after,.page-head .more::after,.sponsors-band .more::after,.tour .go::after{background:var(--gold);color:var(--cardinal-xdk)}
+.dark .card .more::after{background:var(--cardinal);color:#fff}
+.dark .btn.primary,.page-head .btn.primary{background:var(--gold);color:var(--cardinal-xdk)}
+.dark .btn.primary:hover,.page-head .btn.primary:hover{background:#fff}
+
+/* key-number bars: gold with deep cardinal text */
+.statbar{background:var(--gold);color:var(--cardinal-xdk)}
+.stats div{border-left-color:rgba(94,8,22,.25)}
+.stats dt{color:var(--cardinal-xdk)}
+.stats dt small{color:var(--cardinal-dk)}
+.stats dd{color:var(--cardinal-xdk)}
+@media (max-width:1100px){.stats div:nth-child(n+4){border-top-color:rgba(94,8,22,.25)}}
+@media (max-width:860px){.stats div{border-top-color:rgba(94,8,22,.25)}.stats div:nth-child(even){border-left-color:rgba(94,8,22,.25)}}
+
+/* publications grid: white cards on cardinal */
+.news-card{background:#fff;color:var(--fg);border:0;border-top:4px solid var(--gold)}
+.news-card:hover{border-top-color:#fff;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.news-card .tag{color:var(--cardinal)}
+.news-card .src{color:#5c5c66}
+.news-card.big{background:linear-gradient(0deg,rgba(94,8,22,.95),rgba(139,11,32,.45)),url(img/lab/circular-sweep.jpg) center/cover;color:#fff}
+.news-card.big .tag{color:var(--gold)}
+.news-card.big .src{color:rgba(255,255,255,.85)}
+
+/* sponsors: cardinal band with gold glow, white tiles */
+.sponsors-band{background:radial-gradient(1000px 480px at 88% 0%,rgba(241,190,72,.35),transparent 60%),radial-gradient(800px 400px at 0% 100%,rgba(94,8,22,.6),transparent 60%),var(--cardinal)}
+.sp-head p{color:#fff}
+.sp-stats span{color:rgba(255,255,255,.85)}
+.marquee{border-color:rgba(255,255,255,.3)}
+.marquee span::after{background:var(--gold)}
+.sp-group h3{color:var(--gold)}
+.sp-group h3::after{background:rgba(255,255,255,.3)}
+.sp-tiles{grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.sp-tiles li{background:#fff;color:var(--cardinal-xdk);border:0;font-size:1.15rem;min-height:110px}
+.sp-tiles li::before{background:var(--gold);height:4px}
+.sp-tiles li:hover{box-shadow:0 12px 30px rgba(0,0,0,.2)}
+
+/* tour box, discover tiles, footer */
+.tour{background:var(--cardinal-dk)}
+.tour .t .eyebrow{color:var(--gold)}
+.tour .t p{color:#fff}
+.discover a{background-color:var(--cardinal-xdk)}
+.discover a::before{background:linear-gradient(0deg,rgba(94,8,22,.9),rgba(94,8,22,.08) 60%)}
+.discover a:hover::before{background:linear-gradient(0deg,rgba(139,11,32,.92),rgba(241,190,72,.18))}
+.discover a span::after{background:var(--gold);color:var(--cardinal-xdk)}
+footer{background:var(--cardinal-xdk);color:rgba(255,255,255,.9);border-top:4px solid var(--gold)}
