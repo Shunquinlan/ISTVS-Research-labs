@@ -22,3 +22,4 @@ docs/data/knack-assets/
 
 # Raw screen recording used to make smd-site/media/hero-loop.mp4 (11 MB, not needed online)
 smd-site/*.webm
+smd-raw/

@@ -165,6 +165,27 @@ Running log of work sessions. Times are recorded from real clock times, never es
 - **Next:** try the example page in a GitBook change request (not published);
   send the review + questions; Week 3 = stakeholder review of the one page
 
+## 2026-11-16
+
+- **Time:** __:__ – __:__ (Shun to fill in)
+- **Done:**
+  - Reviewed Dr. Tekeste's in-person meeting (scope cut: v1 = alphabetical directory with
+    working links; only the ISU SMD Lab gets a full page; detailed pages for other labs = phase 2)
+  - Checked the live istvs.org Research Laboratories table (7 rows = 6 labs; ISU listed twice):
+    it matches the Knack export exactly
+  - Merged it with Dr. Tekeste's 11/3 sheet (`knack-review-2026-10-10_mt_11-3-2026.xlsx`):
+    11 labs ready to publish, 10 pending or deleted -> `docs/data/directory-v1-2026-11-16.xlsx`
+  - Built the GitBook pages in the ISTVS repo clone (`C:\Users\quinl\GitHub\res-labs`):
+    `README.md` (directory as GitBook cards), `labs/iowa-state-soil-machine-dynamics-lab.md`,
+    `SUMMARY.md`, and logos/photos in `.gitbook/assets/` (logos padded to 16:9, not stretched)
+  - Link check: 11 of 11 load except USDA NSDL (did not load in the automated check; click-test)
+- **Decisions:** list by institution A–Z; Tennessee + Iguana removed (per sheet); labs without a
+  website stay unpublished until Dr. Tekeste confirms a link
+- **Published:** Shun committed + pushed (`8fab80b`); live at https://res-labs.istvs.org. Checked:
+  11 cards with logos, all card links correct, ISU page images and buttons work, desktop (3 per
+  row) and mobile layouts OK
+- **Next:** send the link to Dr. Tekeste, Joshua, Massimo and Lutz; get answers on the Pending tab
+
 ---
 
 ### Week 1 — Summary (for hours log)
