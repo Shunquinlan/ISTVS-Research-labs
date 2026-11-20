@@ -404,3 +404,6 @@ footer{background:var(--cardinal-xdk);color:rgba(255,255,255,.9);border-top:4px 
 
 /* Safari/iPhone fix (2026-11-19): keep image proportions when the HTML height attribute meets max-width */
 img{height:auto}
+
+/* Mobility banner: keep the carriage in view on narrow screens (2026-11-19) */
+#bin-mobility .media video,#bin-mobility .media img{object-position:78% center}
