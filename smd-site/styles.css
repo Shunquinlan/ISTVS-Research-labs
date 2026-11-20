@@ -398,3 +398,6 @@ footer a{color:#fff}
 .discover a:hover::before{background:linear-gradient(0deg,rgba(139,11,32,.92),rgba(241,190,72,.18))}
 .discover a span::after{background:var(--gold);color:var(--cardinal-xdk)}
 footer{background:var(--cardinal-xdk);color:rgba(255,255,255,.9);border-top:4px solid var(--gold)}
+
+/* fix: square portrait photos on the Advisory Board page */
+.person img,.director img{height:auto;aspect-ratio:1/1;object-fit:cover;object-position:center top}
