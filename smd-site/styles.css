@@ -407,3 +407,25 @@ img{height:auto}
 
 /* Mobility banner: keep the carriage in view on narrow screens (2026-11-19) */
 #bin-mobility .media video,#bin-mobility .media img{object-position:78% center}
+
+/* ===== Phone layout fixes (2026-11-19) ===== */
+@media (max-width:860px){
+  /* Menu: wrap onto extra lines instead of hiding links off-screen */
+  .topbar nav{overflow:visible;margin-inline:-6px}
+  .topbar nav ul{flex-wrap:wrap;gap:0}
+  .topbar nav a{min-height:40px;padding:0 9px;font-size:.92rem}
+  /* Soil bin banners: clean video band on top, text below on solid cardinal */
+  .bin-full{display:block;min-height:0}
+  .bin-full .media{position:relative;inset:auto;aspect-ratio:16/9}
+  .bin-full .shade{display:none}
+  .bin-full .fb-copy{padding-block:28px 48px}
+  /* Mission: equipment close-up instead of the roof */
+  .fullbleed[aria-labelledby="mission-h"]{--img:url(img/lab/mobility-dyno-carriage-zoom.jpg) !important}
+  /* Stronger shade so text and gold labels stay readable over photos */
+  .hero-full .shade,.fullbleed .shade{background:linear-gradient(0deg,rgba(94,8,22,.97) 30%,rgba(139,11,32,.8) 65%,rgba(139,11,32,.45))}
+}
+@media (max-width:860px){
+  /* Page banners on phones: even, darker overlay so text over photos stays readable */
+  .page-head::before{background:linear-gradient(0deg,rgba(94,8,22,.96),rgba(139,11,32,.84))}
+  .page-head .wrap{padding-block:64px 40px}
+}
