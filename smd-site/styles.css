@@ -401,3 +401,6 @@ footer{background:var(--cardinal-xdk);color:rgba(255,255,255,.9);border-top:4px 
 
 /* fix: square portrait photos on the Advisory Board page */
 .person img,.director img{height:auto;aspect-ratio:1/1;object-fit:cover;object-position:center top}
+
+/* Safari/iPhone fix (2026-11-19): keep image proportions when the HTML height attribute meets max-width */
+img{height:auto}
